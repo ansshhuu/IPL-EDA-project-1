@@ -1,49 +1,76 @@
 # 🏏 IPL Exploratory Data Analysis (2008–2024)
 
-This project presents a comprehensive Exploratory Data Analysis (EDA) of the Indian Premier League (IPL) matches from 2008 to 2024. It aims to uncover patterns, trends, and insights from historical match and delivery-level data using Python.
+[![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/anshupanwar/eda-of-ipl-matches)
+
+This project presents a comprehensive Exploratory Data Analysis (EDA) of the Indian Premier League (IPL) matches from 2008 to 2024. It explores team performance, player stats, match trends, and provides visual insights into the league's history.
 
 ---
 
 ## 📂 Dataset Info
 
-- **Title:** IPL Complete Dataset (2008–2024)
-- **Source:** [Kaggle - IPL Complete Dataset](https://www.kaggle.com/datasets/patrickb1912/ipl-complete-dataset-20082020)
+- **Source:** [IPL Complete Dataset (2008–2020) on Kaggle](https://www.kaggle.com/datasets/patrickb1912/ipl-complete-dataset-20082020) *(manually extended to 2024)*
 - **Files Used:**
-  - `matches.csv` – Contains match-level data (teams, winner, venue, etc.)
-  - `deliveries.csv` – Contains ball-by-ball delivery-level data (runs, wickets, batsman, bowler, etc.)
+  - `matches.csv` – Match-level information
+  - `deliveries.csv` – Ball-by-ball data
 
 ---
 
 ## 🛠️ Tools Used
 
-- **Python 3**
-- **Libraries:**
-  - `Pandas` – Data manipulation
-  - `NumPy` – Numerical operations
-  - `Matplotlib` & `Seaborn` – Visualizations
-  - `Pandas Profiling` – Automated EDA reporting
-  - `Jupyter Notebook` – Interactive code and analysis
+- Python 3  
+- Libraries: `Pandas`, `NumPy`, `Matplotlib`, `Seaborn`, `Pandas Profiling`  
+- Jupyter Notebook
 
 ---
 
 ## 📊 Summary of Analysis
 
-- Analyzed total matches, seasons, teams, venues, and win stats.
-- Identified top-performing teams and players in terms of wins, runs, wickets, and sixes.
-- Visualized trends such as home-ground advantage, toss decisions, and run patterns per over.
-- Used pairplots and clustermaps to explore multivariate relationships and team similarities.
-- Created visual comparisons of home vs away win percentages.
-- Answered key questions like:
-  - Who scored the most sixes?
-  - Which team has the highest win rate at home?
-  - Are toss winners more likely to win the match?
-  - How many super overs occurred?
+- Total matches, teams, seasons, venues explored.
+- Top teams, top players, and match outcomes analyzed.
+- Visualized:
+  - Home vs away win stats
+  - Toss winner vs match winner
+  - Super overs played
+  - Runs per over
+  - Top scorers, most sixes, and more
+- Included custom questions with visual answers.
+- Used pairplots and cluster maps for pattern discovery.
+
+---
+
+## 🧠 Inferences & Conclusion
+
+- Some teams have a clear home-ground advantage.
+- Winning the toss doesn't always lead to winning the match.
+- Players like [Top Player] consistently perform across seasons.
+- Run patterns vary significantly across overs and match situations.
+
+---
+
+## 🎓 Things I Learned
+
+- Cleaned and visualized real-world sports data.
+- Gained hands-on experience with Pandas and Seaborn.
+- Automated reports with `pandas_profiling`.
+- Converted analytical questions into visual storytelling.
+- Improved data interpretation and presentation skills.
 
 ---
 
 ## 🚀 Future Work
 
-Future enhancements include adding interactive dashboards with Plotly, building predictive models for match outcomes, and tracking player form over time for deeper insights.
+Future work could include interactive dashboards using Plotly, building machine learning models for predictions, and extending analysis to include player form, over-wise impact, and venue conditions.
 
 ---
+
+## 📚 References
+
+- [Pandas Documentation](https://pandas.pydata.org/docs/)
+- [Seaborn Documentation](https://seaborn.pydata.org/)
+- [Matplotlib](https://matplotlib.org/)
+- [Original Dataset on Kaggle](https://www.kaggle.com/datasets/patrickb1912/ipl-complete-dataset-20082020)
+
+---
+
+
 
